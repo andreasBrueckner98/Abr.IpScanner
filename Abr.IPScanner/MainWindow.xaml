@@ -1,0 +1,26 @@
+﻿<Window x:Class="Abr.IPScanner.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Abr.IPScanner" xmlns:viewmodels="clr-namespace:Abr.IPScanner.ViewModels" 
+        xmlns:view="clr-namespace:Abr.IPScanner.Views"
+        mc:Ignorable="d" Background="Black" AllowsTransparency="True" WindowStyle="None"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="CanResizeWithGrip" 
+        MinHeight="600" MinWidth="700" FontSize="16" Foreground="White"
+        x:Name="ThisWindow">
+    <Border BorderBrush="#222" BorderThickness="2">
+        <Border.Style>
+            <Style TargetType="{x:Type Border}">
+                <Style.Triggers>
+                    <DataTrigger Binding="{Binding RelativeSource={RelativeSource AncestorType={x:Type local:MainWindow}}, Path=WindowState}" Value="Maximized">
+                        <Setter Property="BorderThickness" Value="{Binding Source={x:Static SystemParameters.WindowResizeBorderThickness}}"/>
+                    </DataTrigger>
+                </Style.Triggers>
+            </Style>
+        </Border.Style>
+        
+        <view:OverviewView />
+    </Border>
+</Window>

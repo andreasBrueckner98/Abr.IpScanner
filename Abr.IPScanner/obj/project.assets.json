@@ -1,0 +1,80 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": []
+  },
+  "packageFolders": {
+    "C:\\Users\\Andreas\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Andreas\\Desktop\\C_Sharp_Projects\\Abr.IPScanner\\Abr.IPScanner\\Abr.IPScanner.csproj",
+      "projectName": "Abr.IPScanner",
+      "projectPath": "C:\\Users\\Andreas\\Desktop\\C_Sharp_Projects\\Abr.IPScanner\\Abr.IPScanner\\Abr.IPScanner.csproj",
+      "packagesPath": "C:\\Users\\Andreas\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Andreas\\Desktop\\C_Sharp_Projects\\Abr.IPScanner\\Abr.IPScanner\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Andreas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Users\\Andreas\\Desktop\\LocalNuGet": {},
+        "http://192.168.0.243:9090/nuget/Compact": {},
+        "http://192.168.0.243:9090/nuget/Customers": {},
+        "http://192.168.0.243:9090/nuget/DevExpress": {},
+        "http://192.168.0.243:9090/nuget/Graidware": {},
+        "http://192.168.0.243:9090/nuget/Hardware": {},
+        "http://192.168.0.243:9090/nuget/NuGet": {},
+        "http://192.168.0.243:9090/nuget/Sigma.Framework": {},
+        "http://192.168.0.243:9090/nuget/ThirdParty": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://www.nuget.org/api/v2/": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
